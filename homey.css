@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    height: 1000px;
+    background: url(https://tse3.mm.bing.net/th/id/OIP.r4ccCzu7jkg43m1AIxKH7QHaEK?pid=Api&P=0&h=180);
+    background-size: cover;
+    color: white;
+
+}
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #fff;
+    border-bottom: 2px solid #eee;
+}
+
+/* Logo section */
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo image size adjustment */
+#logo img {
+    width: 80px;       /* Adjust the size here */
+    height: auto;      /* Keeps image proportion */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin-right: 10px;  /* Space between image and text */
+}
+
+/* Logo text */
+#logo span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.box1 img {
+    width: 400px;    /* or try 150px */
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between; /* puts one image on left & other on right */
+    align-items: right;
+    padding: 04px 360px;
+}
+
+.image-row img {
+    width: 350px;    /* adjust size */
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* optional small space between images if they are closer together */
+.image-row {
+    gap: 20px; /* controls the space between them */
+}
+
+#box2 img {
+    width: 400px;    /* or try 150px */
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.about_section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Box layout */
+.about_box {
+    display: flex;
+    align-items: center;
+    gap: 30px;               /* Space between image and text */
+}
+
+/* Reverse class to swap image and text */
+.about_box.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Image styling */
+.about_box .image img {
+    width: 350px;            /* Adjust image size */
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Text styling */
+.about_box .text {
+    max-width: 500px;
+}
+
+.about_box .text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about_box .text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button styling */
+.btn {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+.about_section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Box layout */
+.about_box {
+    display: flex;
+    align-items: center;
+    gap: 30px;               /* Space between image and text */
+}
+
+/* Reverse class to swap image and text */
+.about_box.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Image styling */
+.about_box .image img {
+    width: 350px;            /* Adjust image size */
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Text styling */
+.about_box .text {
+    max-width: 500px;
+}
+
+.about_box .text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about_box .text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button styling */
+.btn {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 10;
+}
+
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .about_box, .about_box.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about_box .image img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .about_box, .about_box.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about_box .image img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+    .footer {
+    background-color: #222;       /* Dark footer background */
+    color: #fff;                  /* White text */
+    padding: 40px 60px;
+    text-align: center;
+}
+
+/* Footer column */
+.footer_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Logo section */
+.footer_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Logo image */
+.footer_logo img {
+    width: 60px;          /* Adjust logo size */
+    height: 60px;
+    border-radius: 50%;   /* Round image */
+}
+
+/* Logo text */
+.footer_logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc66;       /* Highlighted text color */
+}
+
+/* Footer description text */
+.footer_col p {
+    font-size: 16px;
+    color: #ddd;
+    max-width: 500px;
+    line-height: 1.5;
+}
+.footer_logo img {
+    width: 90px;     /* Change this value to make it bigger or smaller */
+    height: 90px;    /* Keeps consistent height */
+    border-radius: 50%;  /* Optional – makes the logo circular */
+    object-fit: cover;   /* Ensures image doesn’t stretch */
+}
